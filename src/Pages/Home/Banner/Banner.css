@@ -1,0 +1,10 @@
+.carosel-container:after {
+    content:'';
+    position:absolute;
+    left:0; top:0;
+    width:100%; 
+    height:100%;
+    display:inline-block;
+    border-radius: 10px;
+    background: linear-gradient( to right ,  #221f1f 0%, rgba(21, 21, 21, 0) 100%);
+  }
